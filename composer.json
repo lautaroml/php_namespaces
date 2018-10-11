@@ -1,0 +1,13 @@
+{
+    "name": "lautaro/autoloading",
+    "description": "Study of PHP PSR-4 autoloading",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lautaro López",
+            "email": "lautaroml@hotmail.com"
+        }
+    ],
+    "require": {}
+}
