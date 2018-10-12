@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "larapack/dd": "^1.1"
+        "larapack/dd": "^1.1",
+        "twig/twig": "^2.0"
     },
     "autoload": {
         "psr-4" : {
