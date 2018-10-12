@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c72964a-11d7-4203-953c-f0cb044381b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/autoloading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autoloading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/globals.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/globals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,28 +43,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="3" />
-          <entry key="php" value="100" />
+          <entry key="html" value="21" />
+          <entry key="php" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="PHP" value="100" />
+          <entry key="HTML" value="21" />
+          <entry key="PHP" value="111" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="html" value="46" />
-          <entry key="php" value="1597" />
+          <entry key="html" value="221" />
+          <entry key="php" value="1721" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="46" />
-          <entry key="PHP" value="1597" />
+          <entry key="HTML" value="221" />
+          <entry key="PHP" value="1721" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -69,10 +73,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/resources/views/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="253">
+              <caret line="11" column="246" selection-start-line="11" selection-start-column="246" selection-end-line="11" selection-end-column="246" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,13 +99,16 @@
       <list>
         <option value="$PROJECT_DIR$/routes/router.php" />
         <option value="$PROJECT_DIR$/bootstrap/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/home/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/globals.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/home/contact.php" />
         <option value="$PROJECT_DIR$/resources/views/home/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/bootstrap/globals.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/contact.html" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.html" />
+        <option value="$PROJECT_DIR$/resources/views/home/index.html" />
       </list>
     </option>
   </component>
@@ -110,6 +125,8 @@
       <path value="$PROJECT_DIR$/vendor/larapack/dd" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -128,6 +145,41 @@
             <path>
               <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoloading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoloading" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539275501897</updated>
-      <workItem from="1539275503095" duration="5682000" />
+      <workItem from="1539275503095" duration="8056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5682000" />
+    <option name="totallyTimeSpent" value="8056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -241,22 +293,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/globals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -276,6 +318,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="246" selection-start-line="11" selection-start-column="246" selection-end-line="11" selection-end-column="246" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

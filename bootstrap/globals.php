@@ -1,11 +1,11 @@
 <?php
 
-function view($resource, $params = null) {
-    $resource = str_replace('.', '/', $resource) . '.php';
+function view($resource, $params = []) {
+    $resource = str_replace('.', '/', $resource) . '.html';
 
-    if ($params) {
-        extract($params);
-    }
+    $loader = new Twig_Loader_Filesystem(__DIR__.'/../resources/views');
 
-    return require __DIR__.'/../resources/views/' . $resource;
+    $twig = new Twig_Environment($loader);
+
+    echo $twig->render($resource, $params );
 }
